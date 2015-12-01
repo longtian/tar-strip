@@ -1,0 +1,25 @@
+{
+  "name": "tar-strip",
+  "version": "0.0.1",
+  "description": "Strip components in tar package",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/strip.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyvernnot/tar-strip.git"
+  },
+  "keywords": [
+    "tar",
+    "stream"
+  ],
+  "author": "wyvernnot",
+  "license": "MIT",
+  "dependencies": {
+    "tar-stream": "^1.3.1"
+  }
+}
