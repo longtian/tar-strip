@@ -1,6 +1,6 @@
 {
   "name": "tar-strip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Strip path components in a tar package",
   "main": "index.js",
   "directories": {
