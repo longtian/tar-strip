@@ -1,7 +1,7 @@
 {
   "name": "tar-strip",
   "version": "0.0.1",
-  "description": "Strip components in tar package",
+  "description": "Strip path components in a tar package",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "tar",
-    "stream"
+    "stream",
+    "strip"
   ],
   "author": "wyvernnot",
   "license": "MIT",
