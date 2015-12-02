@@ -17,9 +17,9 @@ getReadStream()
   .pipe(getWriteStream())
 
 function getReadStream() {
-  return fs.createReadStream(path.join('before.tar.gz'))
+  return fs.createReadStream(path.join(__dirname, 'before.tar.gz'))
 }
 
 function getWriteStream() {
-  return fs.createWriteStream(path.join('after.tar.gz'));
+  return fs.createWriteStream(path.join(__dirname, 'after.tar.gz'));
 }
